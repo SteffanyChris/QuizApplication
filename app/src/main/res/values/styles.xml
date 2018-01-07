@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darker_brown</item>
+        <item name="colorPrimaryDark">@color/darker_brown</item>
+        <item name="colorAccent">@color/brown</item>
+    </style>
+
+    <!-- Text Dimensions -->
+    <dimen name="title_size">44sp</dimen>
+    <dimen name="subtitle_size">28sp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="start_quiz_button_size">30sp</dimen>
+
+    <!-- Paddings and margins Dimensions -->
+    <dimen name="title_space_size">50dp</dimen>
+    <dimen name="subtitle_space_size">30dp</dimen>
+    <dimen name="usual_space">9dp</dimen>
+    <dimen name="button_size">40dp</dimen>
+    <dimen name="space_twenty">20dp</dimen>
+    <dimen name="border_shape">5dp</dimen>
+
+
+</resources>

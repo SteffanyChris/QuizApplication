@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hg_wallpaper"
+    tools:context="com.example.android.quizapplication.HistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome_message_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome_message_history_quiz"
+            android:textColor="@color/white"
+            android:textSize="@dimen/subtitle_size"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_one"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/history_et_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_one"
+                android:layout_marginLeft="@dimen/usual_space"
+                android:layout_marginRight="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="@string/type_your_answer_hint"
+                android:textColor="@color/white"
+                android:textColorHint="@color/brown"
+                android:textSize="@dimen/text_size" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_two"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_two"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_two"
+                android:layout_margin="@dimen/usual_space"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/history_cb_1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/checkbox_history_1a"
+                    android:textColor="@color/brown" />
+
+                <CheckBox
+                    android:id="@+id/history_cb_1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/checkbox_history_1b"
+                    android:textColor="@color/brown" />
+
+                <CheckBox
+                    android:id="@+id/history_cb_1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/checkbox_history_1c"
+                    android:textColor="@color/brown" />
+
+                <CheckBox
+                    android:id="@+id/history_cb_1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/checkbox_history_1d"
+                    android:textColor="@color/brown" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_three"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_three"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_three"
+                android:layout_margin="@dimen/usual_space"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/history_cb_3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/checkbox_history_3a"
+                    android:textColor="@color/brown" />
+
+                <CheckBox
+                    android:id="@+id/history_cb_3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/checkbox_history_3b"
+                    android:textColor="@color/brown" />
+
+                <CheckBox
+                    android:id="@+id/history_cb_3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/checkbox_history_3c"
+                    android:textColor="@color/brown" />
+
+                <CheckBox
+                    android:id="@+id/history_cb_3d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/checkbox_history_3d"
+                    android:textColor="@color/brown" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_four"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_four"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/history_et_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_four"
+                android:layout_marginLeft="@dimen/usual_space"
+                android:layout_marginRight="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="@string/type_your_answer_hint"
+                android:textColor="@color/white"
+                android:textColorHint="@color/brown"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_five"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_five"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/history_et_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_five"
+                android:layout_marginLeft="@dimen/usual_space"
+                android:layout_marginRight="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="@string/type_your_answer_hint"
+                android:textColor="@color/white"
+                android:textColorHint="@color/brown"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_six"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_six"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <RadioGroup
+                android:id="@+id/history_radiogroup_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_six"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_history_1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/usual_space"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/rb_history_a"
+                    android:textColor="@color/brown" />
+
+                <RadioButton
+                    android:id="@+id/rb_history_1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/usual_space"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/rb_history_b"
+                    android:textColor="@color/brown" />
+
+                <RadioButton
+                    android:id="@+id/rb_history_1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/usual_space"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/rb_history_c"
+                    android:textColor="@color/brown" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_seven"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_seven"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/history_et_seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_seven"
+                android:layout_marginLeft="@dimen/usual_space"
+                android:layout_marginRight="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="@string/type_your_answer_hint"
+                android:textColor="@color/white"
+                android:textColorHint="@color/brown"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_eight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_eight"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/history_et_eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_eight"
+                android:layout_marginLeft="@dimen/usual_space"
+                android:layout_marginRight="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="@string/type_your_answer_hint"
+                android:textColor="@color/white"
+                android:textColorHint="@color/brown"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_nine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_nine"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/history_et_nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_nine"
+                android:layout_marginLeft="@dimen/usual_space"
+                android:layout_marginRight="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="@string/type_your_answer_hint"
+                android:textColor="@color/white"
+                android:textColorHint="@color/brown"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/usual_space"
+            android:background="@drawable/layout_backgroud">
+
+            <TextView
+                android:id="@+id/history_tv_queastion_ten"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/usual_space"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_question_ten"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <RadioGroup
+                android:id="@+id/history_radiogroup_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv_queastion_ten"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_history_2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/usual_space"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/rb_history_2a"
+                    android:textColor="@color/brown" />
+
+                <RadioButton
+                    android:id="@+id/rb_history_2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/usual_space"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/rb_history_2b"
+                    android:textColor="@color/brown" />
+
+                <RadioButton
+                    android:id="@+id/rb_history_2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/usual_space"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/rb_history_2c"
+                    android:textColor="@color/brown" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit_answer_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="getScore"
+                android:text="@string/submit_answers_button"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/try_again_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="resetAll"
+                android:text="@string/try_again"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/redirect_geography"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                android:text="@string/take_me_to_Geography"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/white"
+                android:onClick="redirect"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
